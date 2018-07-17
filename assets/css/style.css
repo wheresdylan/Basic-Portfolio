@@ -1,0 +1,28 @@
+header {
+    padding: 0px 15px 0px 15px;
+    margin-left: 180px;
+    color:white;
+    background: #33A8FF;
+    float: left;
+    width: 12%;
+    height: 83px;
+    text-align: center;
+}
+
+nav{
+    float: right;
+    margin-right: 400px;
+    margin-top:38px;
+    font-size: 14px;
+    color: #AAB7B8; 
+}
+
+.top_header{
+    padding: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
