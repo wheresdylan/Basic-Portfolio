@@ -21,6 +21,15 @@ nav{
     padding: 40px;
 }
 
+h2{
+    color:#33A8FF;
+}
+
+section{
+    background-color: #D5DBDB;
+    margin-top:50px;
+}
+
 .clearfix::after {
     content: "";
     display: block;
