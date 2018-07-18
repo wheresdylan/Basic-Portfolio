@@ -5,7 +5,7 @@ header {
     background: #33A8FF;
     float: left;
     width: 12%;
-    height: 83px;
+    height: 68px;
     text-align: center;
 }
 
@@ -29,6 +29,7 @@ section{
     background-color: #D5DBDB;
     margin-top:50px;
 }
+
 
 .clearfix::after {
     content: "";
