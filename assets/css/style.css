@@ -1,54 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: blue;
+}
+
 header {
-    padding: 0px 15px 0px 15px;
+    padding: 20px 15px 0px 15px;
     margin-left: 180px;
+    margin-top:-20px;
     color:white;
     background: #33A8FF;
     float: left;
-    width: 12%;
-    height: 68px;
+    width: 13%;
+    height: 50px;
     text-align: center;
 }
 
 nav{
     float: right;
-    margin-right: 400px;
-    margin-top:38px;
-    font-size: 14px;
-    color: #AAB7B8; 
+    margin-right: 300px;
+    margin-top:0px;
+    font-size: 25px; 
 }
 
 .top_header{
-    padding: 40px;
+    background-color: white;
+    padding:50px;
 }
 
 h2{
     color:#33A8FF;
 }
 
-.about_me{
-    background-color: #D5DBDB;
-    margin-top:100px;
+#about_me{
+    background-color:white;
+    margin-top:50px;
     margin-left:250px;
     margin-right:250px;
     padding: 30px;
+    border-style: solid;
+    height:500px;
 }
 
 #contact{
-    background-color: #D5DBDB;
+    background-color: white;
     margin-top:100px;
     float:center;
     margin-left:325px;
     margin-right:325px;
     padding: 30px;
+    border-style: solid;
 }
 
-.portfolio{
-    background-color: #D5DBDB;
+#portfolio{
+    background-color:white;
     margin-top:100px;
     float:center;
     margin-left:290px;
     margin-right:290px;
     padding: 30px;
+    border-style:solid;
 }
 
 #image{
@@ -56,8 +70,3 @@ h2{
     margin-right:30px;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
