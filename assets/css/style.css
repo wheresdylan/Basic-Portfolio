@@ -4,69 +4,87 @@
 }
 
 body{
-    background-color: blue;
+    background-image:url("funky-lines.png");
 }
 
 header {
-    padding: 20px 15px 0px 15px;
-    margin-left: 180px;
-    margin-top:-20px;
-    color:white;
-    background: #33A8FF;
-    float: left;
-    width: 13%;
-    height: 50px;
-    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    border: 1px solid grey;
+    background-color: white;
 }
 
 nav{
-    float: right;
-    margin-right: 300px;
-    margin-top:0px;
+    position: absolute;
+    right: 0;
     font-size: 25px; 
+    top: 30%;
 }
 
 .top_header{
-    background-color: white;
-    padding:50px;
+    position: relative;
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+h1{
+    box-sizing:border-box;
+    padding: 20px;
+    width: 180px;
+    background: rgb(51, 139, 255);
+    text-align: center;
+    color: white;
 }
 
 h2{
-    color:#33A8FF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(51, 139, 255);
 }
 
 #about_me{
     background-color:white;
     margin-top:50px;
-    margin-left:250px;
-    margin-right:250px;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
     padding: 30px;
     border-style: solid;
-    height:500px;
+    border-width: thin;
+    height:455px;
 }
 
 #contact{
     background-color: white;
     margin-top:100px;
-    float:center;
-    margin-left:325px;
-    margin-right:325px;
+    margin-left:auto;
+    margin-right:auto;
     padding: 30px;
     border-style: solid;
+    border-width: thin;
+    width: 650px;
 }
 
 #portfolio{
     background-color:white;
     margin-top:100px;
-    float:center;
-    margin-left:290px;
-    margin-right:290px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
     padding: 30px;
     border-style:solid;
+    border-width: thin;
+    width: 800px;
 }
 
 #image{
     float:left;
     margin-right:30px;
+}
+
+.image_port img{
+    width:378px;
+    height:215px;
+    margin:10px;
 }
 
